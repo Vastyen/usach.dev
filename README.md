@@ -1,6 +1,6 @@
 ## Usach Developers </>
 
-<img style="float: right;" src="https://registro.usach.cl/imagen/Logo_Naranjo.png" width="200">
+<img src="https://registro.usach.cl/imagen/Logo_Naranjo.png" width="200" align="right">
 
 ### Bievenido al repositorio de [usach.dev](https://bescri.github.io/usach.dev/), una pagina informativa para la USACH en construcción.
 
