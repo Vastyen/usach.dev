@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(240, 236, 232);
+}
+
+.lema{
+    text-align: center;
+    font-size: 4em;
+}
