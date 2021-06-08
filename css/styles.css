@@ -2,10 +2,17 @@
 
 *{
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(240, 236, 232);
+    background-color: rgb(26, 24, 23);
+    color: white;
 }
 
 .lema{
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
+}
+
+.developers{
+    font-size: 1.3em;
+    text-align: center;
+
 }
