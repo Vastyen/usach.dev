@@ -1,5 +1,4 @@
-## Usach Developers
+## Usach Developers </>
 
 <p align="center>
-          https://bescri.github.io/usach.dev/
- </p>
+          https://bescri.github.io/usach.dev/</p>
