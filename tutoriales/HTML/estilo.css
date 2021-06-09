@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    margin: 2em;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    background-color: rgb(26, 24, 23);
+    color: white;
+}
+
+.lema{
+    text-align: center;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    user-select: none;
+    
+}
+
+.developers{
+    font-size: 1.3em;
+    text-align: center;
+    opacity: 0.8;
+    user-select: none;
+}
+
+#cabezera{
+    display: flex;
+}
+
+#logo-tuto{
+    height: 6em;
+    width: 6em;
+    
+    border: 5px solid hsl(55, 75%, 20%);
+    background: hsl(55, 75%, 50%);
+    border-radius: 50%;    
+    
+    display: flex;
+}
+
+#logo-tuto img{
+    height: 80%;
+    display: block;
+    
+    margin: auto;
+    
+    background: transparent;
+}
+
+.titulo-tutorial{
+    font-family: arial;
+    font-size: 4em;
+    font-weight: bolder;
+    
+    margin-left: auto;
+    margin-right: 0.5em;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombre-html{
+    color: hsl(0, 50%, 50%);
+    font-weight: bold;
+}
+.atributo-html{
+    color: hsl(140, 50%, 50%);
+    font-weight: bold;
+}
+.contenido-html{
+    color: hsl(50, 75%, 50%);
+    font-weight: bold;
+}
+
+a{
+    color: hsl(180, 50%, 50%);
+    font-weight: bolder;
+}
