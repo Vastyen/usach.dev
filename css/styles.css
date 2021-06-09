@@ -97,6 +97,14 @@
     padding-left: 12vw;
 }
 
+.fa-github:hover{
+    opacity: 0.5;
+}
+
+.nombre{
+    margin-left: 10vh;
+}
+
 
 
 
