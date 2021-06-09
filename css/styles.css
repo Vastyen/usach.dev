@@ -23,3 +23,17 @@
     opacity: 0.8;
     user-select: none;
 }
+
+#menu h3{
+    display: inline;
+    justify-content: space-between;
+    font-size: 2em;
+    margin: 2em;
+    background-color: red;    
+}
+#menu{
+    background-color: red;
+    justify-content: space-between;
+    text-align: center;
+
+}
