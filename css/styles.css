@@ -28,7 +28,7 @@
 #menu h3{
     display: inline;
     justify-content: space-between;
-    font-size: 2em;
+    font-size: 2vw;
     margin: 2.5em;
     background-color:#292626;    
 }
@@ -38,5 +38,18 @@
     padding-bottom: 3vh;
     justify-content: space-between;
     text-align: center;
+}
+
+@media screen and (max-width: 800px){
+    #menu h3{
+        font-size: 5vw;
+        display: block;
+        margin: 5vh;
+    }
+
+    #menu{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    }
 
 }
