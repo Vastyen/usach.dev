@@ -71,14 +71,20 @@
 
 @media screen and (max-width: 800px){
     #menu h3{
-        font-size: 5vw;
-        display: block;
-        margin: 5vh;
+    font-size: 5vw;
+    display: block;
+    margin: 5vh;
     }
 
     #menu{
     padding-top: 1vh;
     padding-bottom: 1vh;
     }
+    .qes{
+        font-size: 1.5em;
+}
 
+    .pf{
+        font-size: 1.8em;
+    }
 }
