@@ -111,17 +111,15 @@
 
 .studyOpt{
     position: relative;
-    top: -2.5vh;
+    top: -2.8vh;
     left: 6em;
     width: 1.5em;
 }
 .devOpt{
     position: relative;
-    top: -22px;
-    left: 170px;
-    bottom: 100%;
-    float: inherit;
-    width: 50px;
+    bottom: 4vh;
+    left: 5em;
+    width: 1.8em;
 }
 .ceiiOpt{
     position: relative;
