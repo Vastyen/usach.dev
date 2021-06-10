@@ -1,135 +1,135 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
-*{
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    scroll-behavior: smooth;
-    background-color: rgb(26, 24, 23);
-    color: white;
-    margin: 1vh;
+* {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  background-color: rgb(26, 24, 23);
+  color: white;
+  margin: 1vh;
 }
 
-.lema{
-    text-align: center;
-    font-size: 3em;
-    color: rgb(255, 255, 255);
-    user-select: none;
+.lema {
+  text-align: center;
+  font-size: 3em;
+  color: rgb(255, 255, 255);
+  user-select: none;
 }
 
-.developers{
-    font-size: 1.3em;
-    text-align: center;
-    opacity: 0.8;
-    user-select: none;
-    padding-bottom: 5vh;
+.developers {
+  font-size: 1.3em;
+  text-align: center;
+  opacity: 0.8;
+  user-select: none;
+  padding-bottom: 5vh;
 }
 
-#menu h3{
-    display: inline;
-    justify-content: space-between;
-    font-size: 1.5vw;
-    margin: 2.5em;
-    background-color:#292626;    
-    transition: 0.3s;
+#menu h3 {
+  display: inline;
+  justify-content: space-between;
+  font-size: 1.5vw;
+  margin: 2.5em;
+  background-color: #292626;
+  transition: 0.3s;
 }
 #menu a {
-    background-color: #292626;
+  background-color: #292626;
 }
 
-#preguntas{
-    width: 65vw;
+#preguntas {
+  width: 65vw;
 }
 
-#repositorio{
-    width: 35vw;
+#repositorio {
+  width: 35vw;
 }
 
-#repositorio h2{
-    font-size: 1.2vw;
+#repositorio h2 {
+  font-size: 1.2vw;
 }
 
-#pie{
-    display: flex;
-    border-color: 1px black;
+#pie {
+  display: flex;
+  border-color: 1px black;
 }
 
-
-#nombres{
-      display: flex;
-  
+#nombres {
+  display: flex;
 }
 
-#titles{
-    display: flex; 
-    justify-content: space-between; 
+#titles {
+  display: flex;
+  justify-content: space-between;
 }
 
-#menu h3:hover{
-    font-size: 2.2vw;
-    transition: 0.4s;
-    background-color:rgb(22, 21, 21);   
-    padding: 3vh;
-    opacity: 0.2;
+#menu h3:hover {
+  font-size: 2.2vw;
+  transition: 0.4s;
+  background-color: rgb(22, 21, 21);
+  padding: 3vh;
+  opacity: 0.2;
 }
 
-#menu{
-    user-select: none;
-    background-color: #292626;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
-    justify-content: space-between;
-    text-align: center;
+#menu {
+  user-select: none;
+  background-color: #292626;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  justify-content: space-between;
+  text-align: center;
 }
 
-.pf{
-    margin-top: 5vh;
-    font-size: 1.8vw;
-    margin-bottom: 2vh;
+.pf {
+  margin-top: 5vh;
+  font-size: 1.8vw;
+  margin-bottom: 2vh;
 }
 
-.qes{
-    margin-top: 3vh;
-    font-size: 1.5vw;
-    font-weight: lighter;
+.qes {
+  margin-top: 3vh;
+  font-size: 1.5vw;
+  font-weight: lighter;
 }
 
-.res{
-    margin-left: 5vh;
+.res {
+  margin-left: 5vh;
 }
 
-.git{
-    font-size: 4vw;
-    justify-content: center;
-    padding-left: 12vw;
+.git {
+  font-size: 4vw;
+  justify-content: center;
+  padding-left: 12vw;
 }
 
-.fa-github:hover{
-    opacity: 0.5;
+.fa-github:hover {
+  opacity: 0.5;
 }
 
-.nombre{
-    margin-left: 5vh;
+.nombre {
+  margin-left: 5vh;
 }
 
+.centrado {
+  text-align: center;
+  font-size: 4vw;
+}
 
-
-
-@media screen and (max-width: 800px){
-    #menu h3{
+@media screen and (max-width: 800px) {
+  #menu h3 {
     font-size: 5vw;
     display: block;
     margin: 5vh;
-    }
+  }
 
-    #menu{
+  #menu {
     padding-top: 1vh;
     padding-bottom: 1vh;
-    }
-    .qes{
-        font-size: 1.5em;
-}
+  }
+  .qes {
+    font-size: 1.5em;
+  }
 
-    .pf{
-        font-size: 1.8em;
-    }
+  .pf {
+    font-size: 1.8em;
+  }
 }
