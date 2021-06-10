@@ -6,7 +6,7 @@
     scroll-behavior: smooth;
     background-color: rgb(26, 24, 23);
     color: white;
-    margin: 1vh;
+    margin: 0;
 }
 
 
@@ -127,7 +127,7 @@
 
     #menu h3{
     font-size: 5vw;
-    margin: 0;
+    margin: 2vh;
     display: block;
     }
 
@@ -147,6 +147,7 @@
     .pf{
         margin: 0 auto;
         margin-top: 3vh;
+        margin-bottom: 3vh;
         text-align: center;
         font-size: 1.5em;
         width: 90%;
@@ -182,32 +183,30 @@
 
     }
 
+    .nombre{
+        margin-left: 0vh;
+    }
 
-            
-   
-
-        
-.nombre{
-    margin-left: 0vh;
-}
-
-#nombres{
-    margin: 0 auto;
-    justify-content: center;
-}
+    #nombres{
+        margin: 0 auto;
+        justify-content: center;
+        margin-bottom: 5vh;
+    }
 
 
-#nombres h2{
-    font-size: 1em;
-}
+    #nombres h2{
+        font-size: 1em;
+        padding: 1vh;
+        padding-top: 0.3vh;
+    }
 
-.git{
-    padding-top: 4vh;
-    font-size: 3em;
-    justify-content: center;
-    padding-left: 0;
-    text-align: center;
-}
+    .git{
+        padding-top: 4vh;
+        font-size: 3em;
+        justify-content: center;
+        padding-left: 0;
+        text-align: center;
+    }
 
 
 
