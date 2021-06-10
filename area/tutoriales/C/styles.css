@@ -16,6 +16,10 @@ body{
     text-align: center;
 }
 
+p{
+    line-height : 24px;
+}
+
 .titulo{
     text-align: center;
 }
@@ -51,6 +55,15 @@ body{
     border-left: 10px solid #333;
     color: #fff;
 }
+
+#menu ul a img{
+    position:absolute;
+    left: -100%;
+    right: -50%;
+    bottom: -10%;
+    margin: auto;
+}
+
 
 #titulo_menu{
     color:gold;
