@@ -9,12 +9,6 @@
     margin: 1vh;
 }
 
-.lema{
-    text-align: center;
-    font-size: 3em;
-    color: rgb(255, 255, 255);
-    user-select: none;
-}
 
 .developers{
     font-size: 1.3em;
@@ -66,7 +60,6 @@
 #titles{
     display: flex; 
     justify-content:space-between; 
-
 }
 
 #menu a:hover h3{
@@ -119,35 +112,24 @@
 
 
 
-.studyOpt{
-    position: relative;
-    top: -15px;
-    bottom: 100%;
-    float: inherit;
-    width: 50px;
-}
-.devOpt{
-    position: relative;
-    top: -22px;
-    bottom: 100%;
-    float: inherit;
-    width: 50px;
-}
-.ceiiOpt{
-    position: relative;
-    top: -15px;
-    bottom: 100%;
-    float: inherit;
-    width: 50px;
-}
+
 
 
 
 @media screen and (max-width: 800px){
+    
+    img{
+        width: 70%;
+    }    
+
+    .developers{
+        font-size: 1em;
+    }
+
     #menu h3{
     font-size: 5vw;
+    margin: 0;
     display: block;
-    margin: 5vh;
     }
 
     #menu{
@@ -156,9 +138,78 @@
     }
     .qes{
         font-size: 1.5em;
+                width: 90%;
 }
+    .res{
+        margin: 0 auto;
+        width: 85%;
+    }
 
     .pf{
-        font-size: 1.8em;
+        margin: 0 auto;
+        margin-top: 3vh;
+        text-align: center;
+        font-size: 1.5em;
+        width: 90%;
     }
+
+    ul{
+        font-size: 5vw;
+                margin: 0 auto;
+
+    }
+
+
+    #accede{
+        display: none;
+    }
+
+    #pie{
+        display: block;
+        width: 100vw;
+                margin: 0 auto;
+
+    }
+  
+    #preguntas{
+        width: 100vw;
+        margin: 0 auto;
+    }
+
+      #repositorio{
+        display: block;
+        width: 100vw;
+                margin: 0 auto;
+
+    }
+
+
+            
+   
+
+        
+.nombre{
+    margin-left: 0vh;
+}
+
+#nombres{
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+#nombres h2{
+    font-size: 1em;
+}
+
+.git{
+    padding-top: 4vh;
+    font-size: 3em;
+    justify-content: center;
+    padding-left: 0;
+    text-align: center;
+}
+
+
+
 }
