@@ -129,7 +129,6 @@
     bottom: 3vh;
     left: 5.5em;
     width: 1.5em;
-
 }
 
 
@@ -231,15 +230,14 @@
 
 
     .studyOpt{
-        width: 10%;
+        display: none;
     }
 
     .devOpt{
-        width: 10%;
-
+        display: none;
     }
     .ceiiOpt{
-        width: 10%;
+        display: none;
     }
 
  #menu a:hover h3{
