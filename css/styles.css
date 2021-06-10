@@ -209,5 +209,17 @@
     }
 
 
+    .studyOpt{
+        width: 10%;
+    }
+
+    .devOpt{
+        width: 10%;
+
+    }
+    .ceiiOpt{
+        width: 10%;
+
+    }
 
 }
