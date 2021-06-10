@@ -35,6 +35,10 @@
     transition: 0.3s;
 }
 
+a {
+    background-color: #292626;
+}
+
 #preguntas{
     width: 65vw;
 }
