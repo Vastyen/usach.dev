@@ -65,7 +65,6 @@
 #menu a:hover h3{
     font-size: 2.2vw;
     transition: 0.4s;
-    background-color:rgb(22, 21, 21);
     padding: 3vh;
     opacity: 0.2;
 
@@ -110,6 +109,28 @@
     margin-left: 5vh;
 }
 
+.studyOpt{
+    position: relative;
+    top: -2.5vh;
+    left: 6em;
+    width: 1.5em;
+}
+.devOpt{
+    position: relative;
+    top: -22px;
+    left: 170px;
+    bottom: 100%;
+    float: inherit;
+    width: 50px;
+}
+.ceiiOpt{
+    position: relative;
+    top: -15px;
+    left: 190px;
+    bottom: 100%;
+    float: inherit;
+    width: 50px;
+}
 
 
 
