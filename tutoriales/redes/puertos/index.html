@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet"
+              type="text/css"
+              href="../../HTML/estilo.css">
+        <style>
+            #logo-tuto{
+                background: hsl(180, 50%, 50%);
+                border-color: hsl(180, 50%, 30%);
+            }
+        </style>
+        <title>Aprendiendo Puertos de Red</title>
+    </head>
+    <body>
+        <div id="cabezera">
+            <div class="titulo-tutorial">Puertos</div>
+            <div id="logo-tuto">
+                <img src="https://cdn4.iconfinder.com/data/icons/network-and-communication-2-10/48/82-512.png">
+            </div>
+        </div>
+        <div id="contenido">
+            <h4>¿Qué son?</h4>
+            <div>
+                Los puertos en las redes son lo que es el numero de un departamento a un edificio, siendo el edificio la <a href="../direcciones/index.html">dirección logica</a>, dan el detalle especifico de donde enviar los datos entre dispositivos, haciendo posible la comunicación por multiples canales y protocolos entre ellos.<br>
+                Son representados por un numero entero entre 1 y 65535
+            </div>
+            <br>
+            <h4>¿Quién asigna los puertos?</h4>
+            <div>
+                Los puertos son asignados por cada protocolo que se quiera tomar, por ejemplo si empezaramos una comunicación por Telnet, el dispositivo cliente mandaria una petición por el puerto 23 al servidor Telnet correspondiente, y este continuaria la comunicación por ese puerto.
+            </div>
+            <br>
+            <h4>¿Por qué el rango es de 1 a 65535?</h4>
+            <div>
+                El rango es de 1 a 65535 porque el paquete de información que se envia lleva el puerto en 16 bits. Haciendo un poco de matematica 2^16 = 65536, siendo este numero nuestra cantidad de puertos posibles, pero se le debe restar 1 ya que el puerto 0 es reservado.
+            </div>
+        </div>
+    </body>
+</html>
