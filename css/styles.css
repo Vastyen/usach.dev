@@ -112,10 +112,14 @@
     margin-left: 5vh;
 }
 
+#menu img{
+  justify-content: space-between;
+  align-items: center;
+}
+
 .studyOpt{
     position: relative;
     top: -15px;
-    left: 190px;
     bottom: 100%;
     float: inherit;
     width: 50px;
@@ -123,7 +127,6 @@
 .devOpt{
     position: relative;
     top: -22px;
-    left: 170px;
     bottom: 100%;
     float: inherit;
     width: 50px;
@@ -131,7 +134,6 @@
 .ceiiOpt{
     position: relative;
     top: -15px;
-    left: 190px;
     bottom: 100%;
     float: inherit;
     width: 50px;
