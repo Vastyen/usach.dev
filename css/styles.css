@@ -113,21 +113,20 @@
     position: relative;
     top: -2.8vh;
     left: 6em;
-    width: 1.5em;
+    width: 1.3em;
 }
 .devOpt{
     position: relative;
-    bottom: 4vh;
+    bottom: 3.5vh;
     left: 5em;
-    width: 1.8em;
+    width: 1.5em;
 }
 .ceiiOpt{
     position: relative;
-    top: -15px;
-    left: 190px;
-    bottom: 100%;
-    float: inherit;
-    width: 50px;
+    bottom: 3vh;
+    left: 5.5em;
+    width: 1.5em;
+
 }
 
 
