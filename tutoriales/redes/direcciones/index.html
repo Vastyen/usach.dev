@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet"
+              type="text/css"
+              href="../../HTML/estilo.css">
+        <style>
+            #logo-tuto{
+                background: hsl(180, 50%, 50%);
+                border-color: hsl(180, 50%, 30%);
+            }
+        </style>
+        <title>Aprendiendo Direcciones de Red</title>
+    </head>
+    <body>
+        <div id="cabezera">
+            <div class="titulo-tutorial">Direcciones de Red</div>
+            <div id="logo-tuto">
+                <img src="https://icons.iconarchive.com/icons/icons8/windows-8/512/Network-Ip-Address-icon.png">
+            </div>
+        </div>
+        <div id="contenido">
+            <h4>¿Como se reconoce a un dispositivo en las redes?</h4>
+            <div>
+                La red tiene direcciones asociadas a cada dispositivo que permiten reconocer de donde a donde enviar los paquetes de datos que viajan por esta.
+            </div>
+            <br>
+            <h4>¿Qué tipos de direcciones hay?</h4>
+            <div>
+                Existen los siguientes tipos de direcciones:
+                <ul>
+                    <li>
+                        Fisicas: Direcciones que vienen de por si con el dispositivo, estas son las MAC(Media Access Control) de las tarjetas de red.
+                        <br>
+                        Generalmente este tipo de dirección se ocupa en transferencias de datos de bajo nivel.
+                    </li>
+                    <br>
+                    <li>
+                        Logicas: Direcciones que son asignadas por algun software a los dispositivos, estas son las IP(Internet Protocol) asignadas cuando uno se conecta a una red.
+                        <br>
+                        Este tipo de dirección se ocupa en transferencias de datos mas complejas que las fisicas.
+                    </li>
+                </ul>
+            </div>
+            <br>
+            <h4>¿Cómo se elige cual ocupar?</h4>
+            <div>
+                Por defecto todos los dispositivos con posibilidad de conectarse a redes ocupan la dirección MAC en la comunicación inicial con está, ya que con esta dirección el Switch o Enrutador correspondiente sabe donde enviar la información de asignación de direcciones logicas.
+                <br>
+                Posteriormente, si ya se le configuro una dirección logica al dispositivo, está sera la ocupada para realizar las siguientes conexiones.
+            </div>
+        </div>
+    </body>
+</html>
