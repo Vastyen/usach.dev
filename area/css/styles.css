@@ -29,11 +29,10 @@
 #menu h3{
     display: inline;
     justify-content: space-between;
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin: 2.5em;
     background-color:#292626;    
-    transition: 0.2s;
-
+    transition: 0.3s;
 }
 
 #preguntas{
