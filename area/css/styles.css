@@ -34,7 +34,9 @@
     background-color:#292626;    
     transition: 0.3s;
 }
-
+#menu a {
+    background-color: #292626;
+}
 #preguntas{
     width: 65vw;
 }
@@ -52,6 +54,9 @@
     border-color: 1px black;
 }
 
+#nombres{
+    display: flex;
+}
 #titles{
     display: flex; 
     justify-content: space-between; 

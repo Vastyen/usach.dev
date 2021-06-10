@@ -32,6 +32,9 @@
     background-color:#292626;    
     transition: 0.3s;
 }
+#menu a {
+    background-color: #292626;
+}
 
 #preguntas{
     width: 65vw;
@@ -48,6 +51,12 @@
 #pie{
     display: flex;
     border-color: 1px black;
+}
+
+
+#nombres{
+      display: flex;
+  
 }
 
 #titles{
@@ -99,7 +108,7 @@
 }
 
 .nombre{
-    margin-left: 10vh;
+    margin-left: 5vh;
 }
 
 
