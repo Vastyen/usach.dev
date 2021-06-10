@@ -14,7 +14,6 @@
     font-size: 3em;
     color: rgb(255, 255, 255);
     user-select: none;
-    
 }
 
 .developers{
@@ -24,7 +23,6 @@
     user-select: none;
     padding-bottom: 5vh;
 }
-
 
 #menu h3{
     display: inline;
@@ -37,6 +35,7 @@
 #menu a {
     background-color: #292626;
 }
+
 #preguntas{
     width: 65vw;
 }
@@ -54,12 +53,16 @@
     border-color: 1px black;
 }
 
+
 #nombres{
-    display: flex;
+      display: flex;
+  
 }
+
 #titles{
     display: flex; 
-    justify-content: space-between; 
+    justify-content:space-between; 
+
 }
 
 #menu h3:hover{
@@ -106,9 +109,33 @@
 }
 
 .nombre{
-    margin-left: 10vh;
+    margin-left: 5vh;
 }
 
+.studyOpt{
+    position: relative;
+    top: -15px;
+    left: 190px;
+    bottom: 100%;
+    float: inherit;
+    width: 50px;
+}
+.devOpt{
+    position: relative;
+    top: -22px;
+    left: 170px;
+    bottom: 100%;
+    float: inherit;
+    width: 50px;
+}
+.ceiiOpt{
+    position: relative;
+    top: -15px;
+    left: 190px;
+    bottom: 100%;
+    float: inherit;
+    width: 50px;
+}
 
 
 
