@@ -115,15 +115,13 @@
 
 .studyOpt{
     position: relative;
-    top: -15px;
-    left: 190px;
-    bottom: 100%;
-    float: inherit;
-    width: 50px;
+    top: -2vh;
+    left: 6em;
+    width: 1.5em;
 }
 .devOpt{
     position: relative;
-    top: -22px;
+    top: -2vh;
     left: 170px;
     bottom: 100%;
     float: inherit;
