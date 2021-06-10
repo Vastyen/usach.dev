@@ -32,8 +32,7 @@
     background-color:#292626;    
     transition: 0.3s;
 }
-
-a {
+#menu a {
     background-color: #292626;
 }
 
@@ -52,6 +51,12 @@ a {
 #pie{
     display: flex;
     border-color: 1px black;
+}
+
+
+#nombres{
+      display: flex;
+  
 }
 
 #titles{
@@ -103,7 +108,7 @@ a {
 }
 
 .nombre{
-    margin-left: 10vh;
+    margin-left: 5vh;
 }
 
 

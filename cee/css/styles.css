@@ -35,9 +35,10 @@
     transition: 0.3s;
 }
 
-a {
+#menu a {
     background-color: #292626;
 }
+
 
 #preguntas{
     width: 65vw;
