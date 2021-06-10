@@ -32,6 +32,10 @@
     background-color:#292626;    
     transition: 0.3s;
 }
+
+
+
+
 #menu a {
     background-color: #292626;
 }
@@ -68,7 +72,7 @@
 #menu a:hover h3{
     font-size: 2.2vw;
     transition: 0.4s;
-    /* background-color:rgb(22, 21, 21);    */
+    background-color:rgb(22, 21, 21);
     padding: 3vh;
     opacity: 0.2;
 
@@ -113,10 +117,7 @@
     margin-left: 5vh;
 }
 
-#menu img{
-  justify-content: space-between;
-  align-items: center;
-}
+
 
 .studyOpt{
     position: relative;
