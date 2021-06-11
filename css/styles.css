@@ -48,7 +48,7 @@
 
 #pie{
     display: flex;
-    border-color: 1px black;
+    padding-bottom: 10vh;
 }
 
 
@@ -63,8 +63,8 @@
 }
 
 #menu a:hover h3{
-    font-size: 2.2vw;
-    transition: 0.4s;
+    font-size: 2vw;
+    transition: 0.3s;
     padding: 3vh;
     opacity: 0.2;
 
@@ -72,27 +72,35 @@
 
 #menu{
     user-select: none;
-    background-color: #292626;
+    background-color: #292626 ;
     padding-top: 3vh;
     padding-bottom: 3vh;
     justify-content: space-between;
     text-align: center;
 }
 
+#menu img{
+    background-color: transparent;
+}
+
 .pf{
     margin-top: 5vh;
     font-size: 1.8vw;
     margin-bottom: 2vh;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .qes{
     margin-top: 3vh;
+    margin-left: 2vh;
     font-size: 1.5vw;
     font-weight: lighter;
 }
 
 .res{
-    margin-left: 5vh;
+    margin-left: 2vh;
+
 }
 
 .git{
@@ -111,27 +119,25 @@
 
 .studyOpt{
     position: relative;
-    top: -2.8vh;
+    top: -2.4vh;
     left: 6em;
     width: 1.3em;
+    background-color: #292626;
 }
 .devOpt{
     position: relative;
-    bottom: 3.5vh;
+    bottom: 3.3vh;
     left: 5em;
-    width: 1.5em;
+    width: 1.8em;
+    background-color: #292626;
 }
 .ceiiOpt{
     position: relative;
-    bottom: 3vh;
-    left: 5.5em;
+    bottom: 2.7vh;
+    left: 5.8em;
     width: 1.5em;
-
+    background-color: #292626;   
 }
-
-
-
-
 
 @media screen and (max-width: 800px){
     
@@ -228,15 +234,14 @@
 
 
     .studyOpt{
-        width: 10%;
+        display: none;
     }
 
     .devOpt{
-        width: 10%;
-
+        display: none;
     }
     .ceiiOpt{
-        width: 10%;
+        display: none;
     }
 
  #menu a:hover h3{
@@ -248,6 +253,12 @@
     display: block;
 
 }
+
+    .gits{
+        padding-left: 2.8em;
+        width: 100%;
+        padding-bottom: 5vh;
+    }
 
 
 }
