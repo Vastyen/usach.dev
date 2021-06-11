@@ -71,11 +71,15 @@
 
 #menu{
     user-select: none;
-    background-color: #292626;
+    background-color: #292626 ;
     padding-top: 3vh;
     padding-bottom: 3vh;
     justify-content: space-between;
     text-align: center;
+}
+
+#menu img{
+    background-color: transparent;
 }
 
 .pf{
@@ -94,7 +98,7 @@
 }
 
 .res{
-        margin-left: 2vh;
+    margin-left: 2vh;
 
 }
 
@@ -120,7 +124,7 @@
 }
 .devOpt{
     position: relative;
-    bottom: 3.5vh;
+    bottom: 2vh;
     left: 5em;
     width: 1.8em;
 }
