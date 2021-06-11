@@ -53,8 +53,7 @@
 
 
 #nombres{
-      display: flex;
-  
+    display: flex;
 }
 
 #titles{
@@ -107,9 +106,11 @@
     font-size: 4vw;
     justify-content: center;
     padding-left: 12vw;
+    
 }
 
 .fa-github:hover{
+    transition: 0.5s;
     opacity: 0.5;
 }
 
