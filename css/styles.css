@@ -27,9 +27,6 @@
     transition: 0.3s;
 }
 
-
-
-
 #menu a {
     background-color: #292626;
 }
@@ -175,9 +172,11 @@
     }
 
     #menu{
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    }
+    padding-top: 3vh;
+    margin-bottom: 5vh;
+
+}
+    
     .qes{
         font-size: 1.5em;
                 width: 90%;
@@ -198,7 +197,7 @@
 
     ul{
         font-size: 5vw;
-                margin: 0 auto;
+        margin: 0 auto;
 
     }
 
@@ -279,5 +278,33 @@
         padding-bottom: 5vh;
     }
 
+    #header-right{
+        margin: 0 auto;
+        width: 60%;
+        margin: 5px;
+    }
 
+
+    #header-right img{
+        width: 100%;
+    }
+
+    #header-right h3{
+        font-size: 2.9vh;
+
+    }
+
+
+
+
+    #menu{
+        width: 40%;
+    }
+    #header{
+        flex-flow: row-reverse;
+        display: flex;
+    }
+
+
+    
 }
