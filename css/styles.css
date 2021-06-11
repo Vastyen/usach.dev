@@ -23,7 +23,7 @@
     justify-content: space-between;
     font-size: 1.5vw;
     margin: 2.5em;
-    background-color:#292626;    
+    background-color:#292626;
     transition: 0.3s;
 }
 
@@ -54,12 +54,12 @@
 
 #nombres{
       display: flex;
-  
+
 }
 
 #titles{
-    display: flex; 
-    justify-content:space-between; 
+    display: flex;
+    justify-content:space-between;
 }
 
 #menu a:hover h3{
@@ -136,14 +136,32 @@
     bottom: 2.7vh;
     left: 5.8em;
     width: 1.5em;
-    background-color: #292626;   
+    background-color: #292626;
 }
-
+.precentrada {
+  font-size: 1.6em;
+  text-align: center;
+  align: center;
+  padding-bottom: 1vh;
+  padding-left:5vh;
+  padding-right:5vh;
+  margin-top: 1.5vh;
+}
+.autorart {
+  font-size: 0.8em;
+  font-style: oblique;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1vh;
+  margin-bottom: -1.5vh;
+  color: #c795ae;
+  opacity: 1;
+}
 @media screen and (max-width: 800px){
-    
+
     img{
         width: 70%;
-    }    
+    }
 
     .developers{
         font-size: 1em;
@@ -194,7 +212,7 @@
                 margin: 0 auto;
 
     }
-  
+
     #preguntas{
         width: 100vw;
         margin: 0 auto;
