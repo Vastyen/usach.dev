@@ -9,6 +9,9 @@
     margin: 0;
 }
 
+a{
+    background-color: #292626;
+}
 
 .developers{
     font-size: 1.3em;
@@ -63,10 +66,11 @@
 }
 
 #menu a:hover h3{
-    font-size: 2.2vw;
+    font-size: 2vw;
     transition: 0.3s;
     padding: 3vh;
     opacity: 0.2;
+
 }
 
 #menu{
@@ -77,6 +81,7 @@
     justify-content: space-between;
     text-align: center;
 }
+
 
 .pf{
     margin-top: 5vh;
@@ -117,18 +122,22 @@
     top: -2.8vh;
     left: 6em;
     width: 1.3em;
+    background-color: #292626;
 }
 .devOpt{
     position: relative;
-    bottom: 3.5vh;
+    bottom: 3.3vh;
     left: 5em;
     width: 1.8em;
+    background-color: #292626;
 }
 .ceiiOpt{
     position: relative;
     bottom: 3vh;
     left: 5.5em;
     width: 1.5em;
+        background-color: #292626;
+
 }
 
 
