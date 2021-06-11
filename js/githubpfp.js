@@ -1,13 +1,17 @@
 (function (d) {
-  const BASE_SIZE = 50;
-  const LOGO_SIZE = 20;
+  const BASE_SIZE = 40;
+  const LOGO_SIZE = 10;
   const LOGO_OFFSET = 5;
 
   const style = d.createElement("style");
   style.innerHTML = `
         .github-profile-badge-wrapper {
             text-decoration: none;
-            display: flex;
+            display: block;
+            float: left;
+            margin-top:1.3em;
+            margin-left:1em;
+            vertical-align: top;
             -webkit-tap-highlight-color: transparent;
             padding-bottom: ${LOGO_OFFSET}px;
             padding-right: ${LOGO_OFFSET}px;
