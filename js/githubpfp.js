@@ -1,5 +1,5 @@
 (function (d) {
-  const BASE_SIZE = 40;
+  const BASE_SIZE = 30;
   const LOGO_SIZE = 10;
   const LOGO_OFFSET = 5;
 
