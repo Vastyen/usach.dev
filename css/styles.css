@@ -1,264 +1,261 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
-*{
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    scroll-behavior: smooth;
-    background-color: rgb(26, 24, 23);
-    color: white;
-    margin: 0;
+* {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  background-color: rgb(26, 24, 23);
+  color: white;
+  margin: 0;
 }
 
-
-.developers{
-    font-size: 1.3em;
-    text-align: center;
-    opacity: 0.8;
-    user-select: none;
-    padding-bottom: 5vh;
+.developers {
+  font-size: 1.3em;
+  text-align: center;
+  opacity: 0.8;
+  user-select: none;
+  padding-bottom: 5vh;
 }
 
-#menu h3{
-    display: inline;
-    justify-content: space-between;
-    font-size: 1.5vw;
-    margin: 2.5em;
-    background-color:#292626;    
-    transition: 0.3s;
+#menu h3 {
+  display: inline;
+  justify-content: space-between;
+  font-size: 1.5vw;
+  margin: 2.5em;
+  background-color: #292626;
+  transition: 0.3s;
 }
-
-
-
 
 #menu a {
-    background-color: #292626;
+  background-color: #292626;
 }
 
-#preguntas{
-    width: 65vw;
+#preguntas {
+  width: 65vw;
 }
 
-#repositorio{
-    width: 35vw;
+#repositorio {
+  width: 35vw;
 }
 
-#repositorio h2{
-    font-size: 1.2vw;
+#repositorio h2 {
+  font-size: 1.2vw;
 }
 
-#pie{
-    display: flex;
-    padding-bottom: 10vh;
+#pie {
+  display: flex;
+  padding-bottom: 10vh;
 }
 
-
-#nombres{
-      display: flex;
-  
+#nombres {
+  display: flex;
 }
 
-#titles{
-    display: flex; 
-    justify-content:space-between; 
+#titles {
+  display: flex;
+  justify-content: space-between;
 }
 
-#menu a:hover h3{
-    font-size: 2vw;
-    transition: 0.3s;
-    padding: 3vh;
-    opacity: 0.2;
-
+#menu a:hover h3 {
+  font-size: 2vw;
+  transition: 0.3s;
+  padding: 3vh;
+  opacity: 0.2;
 }
 
-#menu{
-    user-select: none;
-    background-color: #292626 ;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
-    justify-content: space-between;
-    text-align: center;
+#menu {
+  user-select: none;
+  background-color: #292626;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  justify-content: space-between;
+  text-align: center;
 }
 
-#menu img{
-    background-color: transparent;
+#menu img {
+  background-color: transparent;
 }
 
-.pf{
-    margin-top: 5vh;
-    font-size: 1.8vw;
-    margin-bottom: 2vh;
-    margin-left: 1em;
-    margin-right: 1em;
+.pf {
+  margin-top: 5vh;
+  font-size: 1.8vw;
+  margin-bottom: 2vh;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
-.qes{
-    margin-top: 3vh;
-    margin-left: 2vh;
-    font-size: 1.5vw;
-    font-weight: lighter;
+.qes {
+  margin-top: 3vh;
+  margin-left: 2vh;
+  font-size: 1.5vw;
+  font-weight: lighter;
 }
 
-.res{
-    margin-left: 2vh;
-
+.res {
+  margin-left: 2vh;
 }
 
-.git{
-    font-size: 4vw;
-    justify-content: center;
-    padding-left: 12vw;
+.git {
+  font-size: 4vw;
+  justify-content: center;
+  padding-left: 12vw;
 }
 
-.fa-github:hover{
-    opacity: 0.5;
+.fa-github:hover {
+  opacity: 0.5;
 }
 
-.nombre{
-    margin-left: 5vh;
+.nombre {
+  margin-left: 5vh;
 }
 
-.studyOpt{
-    position: relative;
-    top: -2.4vh;
-    left: 6em;
-    width: 1.3em;
-    background-color: #292626;
-}
-.devOpt{
-    position: relative;
-    bottom: 3.3vh;
-    left: 5em;
-    width: 1.8em;
-    background-color: #292626;
-}
-.ceiiOpt{
-    position: relative;
-    bottom: 2.7vh;
-    left: 5.8em;
-    width: 1.5em;
-    background-color: #292626;   
+.studyOpt {
+  position: relative;
+  top: -2.4vh;
+  left: 6em;
+  width: 1.3em;
+  background-color: #292626;
 }
 
-@media screen and (max-width: 800px){
-    
-    img{
-        width: 70%;
-    }    
+.precentrada {
+  font-size: 1.6em;
+  text-align: center;
+  align: center;
+  padding-bottom: 1vh;
+  padding-left:5vh;
+  padding-right:5vh;
+  margin-top: 1.5vh;
+}
+.autorart {
+  font-size: 1.6em;
+  text-align: center;
+  margin-top: 1.5vh;
 
-    .developers{
-        font-size: 1em;
-    }
+.devOpt {
+  position: relative;
+  bottom: 3.3vh;
+  left: 5em;
+  width: 1.8em;
+  background-color: #292626;
+}
+.ceiiOpt {
+  position: relative;
+  bottom: 2.7vh;
+  left: 5.8em;
+  width: 1.5em;
+  background-color: #292626;
+}
 
-    #menu h3{
+@media screen and (max-width: 800px) {
+  img {
+    width: 70%;
+  }
+
+  .developers {
+    font-size: 1em;
+  }
+
+  #menu h3 {
     font-size: 5vw;
     margin: 2vh;
     display: block;
-    }
+  }
 
-    #menu{
+  #menu {
     padding-top: 1vh;
     padding-bottom: 1vh;
-    }
-    .qes{
-        font-size: 1.5em;
-                width: 90%;
-}
-    .res{
-        margin: 0 auto;
-        width: 85%;
-    }
+  }
+  .qes {
+    font-size: 1.5em;
+    width: 90%;
+  }
+  .res {
+    margin: 0 auto;
+    width: 85%;
+  }
 
-    .pf{
-        margin: 0 auto;
-        margin-top: 3vh;
-        margin-bottom: 3vh;
-        text-align: center;
-        font-size: 1.5em;
-        width: 90%;
-    }
+  .pf {
+    margin: 0 auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    text-align: center;
+    font-size: 1.5em;
+    width: 90%;
+  }
 
-    ul{
-        font-size: 5vw;
-                margin: 0 auto;
+  ul {
+    font-size: 5vw;
+    margin: 0 auto;
+  }
 
-    }
+  #accede {
+    display: none;
+  }
 
+  #pie {
+    display: block;
+    width: 100vw;
+    margin: 0 auto;
+  }
 
-    #accede{
-        display: none;
-    }
+  #preguntas {
+    width: 100vw;
+    margin: 0 auto;
+  }
 
-    #pie{
-        display: block;
-        width: 100vw;
-                margin: 0 auto;
+  #repositorio {
+    display: block;
+    width: 100vw;
+    margin: 0 auto;
+  }
 
-    }
-  
-    #preguntas{
-        width: 100vw;
-        margin: 0 auto;
-    }
+  .nombre {
+    margin-left: 0vh;
+  }
 
-      #repositorio{
-        display: block;
-        width: 100vw;
-                margin: 0 auto;
+  #nombres {
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 5vh;
+  }
 
-    }
+  #nombres h2 {
+    font-size: 1em;
+    padding: 1vh;
+    padding-top: 0.3vh;
+  }
 
-    .nombre{
-        margin-left: 0vh;
-    }
+  .git {
+    padding-top: 4vh;
+    font-size: 3em;
+    justify-content: center;
+    padding-left: 0;
+    text-align: center;
+  }
 
-    #nombres{
-        margin: 0 auto;
-        justify-content: center;
-        margin-bottom: 5vh;
-    }
+  .studyOpt {
+    display: none;
+  }
 
+  .devOpt {
+    display: none;
+  }
+  .ceiiOpt {
+    display: none;
+  }
 
-    #nombres h2{
-        font-size: 1em;
-        padding: 1vh;
-        padding-top: 0.3vh;
-    }
-
-    .git{
-        padding-top: 4vh;
-        font-size: 3em;
-        justify-content: center;
-        padding-left: 0;
-        text-align: center;
-    }
-
-
-    .studyOpt{
-        display: none;
-    }
-
-    .devOpt{
-        display: none;
-    }
-    .ceiiOpt{
-        display: none;
-    }
-
- #menu a:hover h3{
+  #menu a:hover h3 {
     font-size: 1.5vw;
     transition: 0s;
-    background-color:#292626;
-     font-size: 5vw;
+    background-color: #292626;
+    font-size: 5vw;
     margin: 2vh;
     display: block;
+  }
 
-}
-
-    .gits{
-        padding-left: 2.8em;
-        width: 100%;
-        padding-bottom: 5vh;
-    }
-
-
+  .gits {
+    padding-left: 2.8em;
+    width: 100%;
+    padding-bottom: 5vh;
+  }
 }
