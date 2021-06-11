@@ -9,9 +9,6 @@
     margin: 0;
 }
 
-a{
-    background-color: #292626;
-}
 
 .developers{
     font-size: 1.3em;
@@ -139,13 +136,8 @@ a{
     bottom: 2.7vh;
     left: 5.8em;
     width: 1.5em;
-        background-color: #292626;
-
+    background-color: #292626;   
 }
-
-
-
-
 
 @media screen and (max-width: 800px){
     
