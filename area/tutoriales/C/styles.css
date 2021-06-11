@@ -6,30 +6,52 @@ body{
 
 *{
     font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
     text-decoration: none;
     scroll-behavior: smooth;
     background-color: rgb(26, 24, 23);
     color: white;
 }
 
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div{
+    flex: 1;
+    padding: 25px;
+    min-width: 250px;
+}
+
+div:last-child{
+    flex: 2;
+    padding: 25px;
+}
+
+h1{
+    text-align: center;
+}
+
 #contenido{
     text-align: center;
+    float: inline-end;
 }
 
 p{
     line-height : 24px;
 }
 
-.titulo{
-    text-align: center;
-}
-
 #menu{
     float: left;
+    margin-right: -30%;
 }
 
-#menu img{
-    padding: 0px 0px 0px 52px;
+img{
+    padding: 0px 0px 0px 0px;
+    height: auto;
 }
 
 #menu ul{
@@ -37,8 +59,8 @@ p{
     list-style-type: none;
     position: relative;
     margin: 0px;
-    padding: 0px;
-    width: 200px;
+    padding: 0PX;
+    width: 150px;
     font-family: Arial, sans-serif;
     font-size: 11pt;
 }
@@ -56,14 +78,21 @@ p{
     color: #fff;
 }
 
-#menu ul a img{
+#devusach{
     position:absolute;
     left: -100%;
-    right: -50%;
-    bottom: -10%;
+    right: -60%;
+    bottom: 85%;
     margin: auto;
 }
 
+#lengc{
+    position:absolute;
+    left: -50%;
+    right: -125%;
+    bottom: 87%;
+    margin: auto;
+}
 
 #titulo_menu{
     color:gold;
