@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(26, 24, 23);
+}
+
+.ramos {
+    width: 70%;
+    display: grid;
+    color: rgb(22, 22, 22);
+    grid-template-rows: repeat(6,1fr);
+    margin: 0 auto 0 auto;
+    grid-column-gap: 1vw;
+    grid-row-gap: 0.5vw;
+    grid-auto-flow: column;
+}
+
+.ramos-element {
+    transition: 0.3s;
+    background-color: rgb(26, 24, 23);
+    font-size: 1vw;
+    text-align: center;
+    width: 100%;
+    height: 4.3em;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+}
+
+.ramos-element:visited{
+    color: black;
+}
+
+
+a[class~="cal1"]{
+    background-image: url("../images/calculo1.jpg");
+}
+
+a[class~="cal2"]{
+    background-image: url("../images/calculo2.jpg");
+}
+
+a[class~="cal3"]{
+    background-image: url("../images/calculo3.jpg");
+}
+
+a[class~="alg1"]{
+    background-image: url("../images/algebra.jpg");
+}
+
+a[class~="alg2"]{
+    background-image: url("../images/algebra2.jpg");
+}
+
+a[class~="ecDif"]{
+    background-image: url("../images/ecuaciones_diferenciales.jpg");
+}
+
+a[class~="fis1"]{
+    background-image: url("../images/fisica1.jpg");
+}
+
+a[class~="fis2"]{
+    background-image: url("../images/fisica2.jpg");
+}
+
+a[class~="elecymag"]{
+    background-image: url("../images/elecymag.jpg");
+}
+
+a[class~="alg2"]{
+    background-image: url("../images/algebra2.jpg");
+}
+
+a[class~="progra"]{
+    background-image: url("../images/programacion.jpg");
+}
+
+a[class~="idi"]{
+    background-image: url("../images/idi.jpg");
+}
+
+a[class~="ingysus"]{
+    background-image: url("../images/IngYSus.png");
+}
+
+
+
+.ramos-element p{
+    transition: 0.2s;
+    background-color: rgba(255,255,255,0.3);
+    position: relative;
+    text-align: center;
+    right: 3em;
+    margin: auto;
+    width: 100%;
+    padding: 1.5vh 3vw 1.5vh 3vw;
+    /* border-radius: 1em; */
+    visibility: hidden;
+    font-weight: bolder;
+}
+
+.ramos-element:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 0.2em rgba(255,255,255,0.2);
+    box-shadow: 0px 0px 1em rgba(255,255,255,0.2);
+}
+
+.ramos-element:hover p{
+    backdrop-filter: blur(1px);
+    visibility:visible;
+}
