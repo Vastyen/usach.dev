@@ -1,5 +1,16 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
     background-color: rgb(26, 24, 23);
+    color: white;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
 }
 
 .ramos {
