@@ -14,13 +14,13 @@ body {
 }
 
 .ramos {
-    width: 70%;
+    width: 95%;
     display: grid;
     color: rgb(22, 22, 22);
     grid-template-rows: repeat(6,1fr);
     margin: 0 auto 0 auto;
-    grid-column-gap: 1vw;
-    grid-row-gap: 0.5vw;
+    grid-column-gap: 0.3vw;
+    grid-row-gap: 0.9vw;
     grid-auto-flow: column;
 }
 
@@ -29,8 +29,8 @@ body {
     background-color: rgb(26, 24, 23);
     font-size: 1vw;
     text-align: center;
-    width: 100%;
-    height: 4.3em;
+    width: 10   0%;
+    height: 8vh;
     overflow: hidden;
     background-position: center;
     background-size: cover;
@@ -65,4 +65,22 @@ body {
 .ramos-element:hover p{
     backdrop-filter: blur(1px);
     visibility:visible;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    grid-template-rows: 13% 1fr ;
+}
+.menu{
+    grid-row: 1/3;
+    grid-column: 1;
+    background-color: red;
+    
+}
+.mallas {
+    grid-row: 1/3;
+    overflow-x: hidden;
 }
