@@ -1,0 +1,52 @@
+
+a[class~="cal1"]{
+    background-image: url("../images/calculo1.jpg");
+}
+
+a[class~="cal2"]{
+    background-image: url("../images/calculo2.jpg");
+}
+
+a[class~="cal3"]{
+    background-image: url("../images/calculo3.jpg");
+}
+
+a[class~="alg1"]{
+    background-image: url("../images/algebra.jpg");
+}
+
+a[class~="alg2"]{
+    background-image: url("../images/algebra2.jpg");
+}
+
+a[class~="ecDif"]{
+    background-image: url("../images/ecuaciones_diferenciales.jpg");
+}
+
+a[class~="fis1"]{
+    background-image: url("../images/fisica1.jpg");
+}
+
+a[class~="fis2"]{
+    background-image: url("../images/fisica2.jpg");
+}
+
+a[class~="elecymag"]{
+    background-image: url("../images/elecymag.jpg");
+}
+
+a[class~="alg2"]{
+    background-image: url("../images/algebra2.jpg");
+}
+
+a[class~="progra"]{
+    background-image: url("../images/programacion.jpg");
+}
+
+a[class~="idi"]{
+    background-image: url("../images/idi.jpg");
+}
+
+a[class~="ingysus"]{
+    background-image: url("../images/IngYSus.png");
+}
