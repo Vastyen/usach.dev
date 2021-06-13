@@ -4,13 +4,14 @@
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     scroll-behavior: smooth;
-    background-color: rgb(26, 24, 23);
     color: white;
+    text-transform: uppercase;
     margin: 0;
 }
 
 body {
     overflow: hidden;
+    background-color: rgb(26, 24, 23);
 }
 
 .ramos {
@@ -75,10 +76,10 @@ body {
     grid-template-rows: 13% 1fr ;
 }
 .menu{
+    transition: 0.3s;
     grid-row: 1/3;
     grid-column: 1;
     background-color: #292626;
-    list-style: none;
     
 }
 .mallas {
@@ -86,8 +87,28 @@ body {
     overflow-x: hidden;
 }
 
+.menu ul {
+    padding-left: 0;
+    margin: 0 auto;
+    font-size: 0.6vw;
+    list-style: none;
+    
+}
 
-img {
+.menu li {
+    padding: 2vw ;
+    padding-left: 0.5vw;
+}
+
+#logo {
+    padding: 1em;
+}
+
+.menu li:hover ,li:focus{
+    background-color: rgba(0,0,0,0.4);
+}
+
+#logo img {
     border-collapse: collapse;
     background-color: transparent;
     width: 110%;
