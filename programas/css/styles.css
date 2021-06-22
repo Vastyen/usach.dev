@@ -34,6 +34,7 @@ body {
     width: 95%;
     display: grid;
     color: var(--color-fondo);
+    grid-template-columns: repeat(5,1fr);
     grid-template-rows: repeat(6,1fr);
     margin: 3vh auto;
     grid-column-gap: 0.3vw;
@@ -109,11 +110,10 @@ body {
     padding: 0;
 }
 
-.menu li {
-}
 
 .menu p {
-    font-size: 2vh;
+    font-size: 1.8vh;
+    font-weight: bold;
     padding: 2vh;
     padding-left: 0;
 }
@@ -132,6 +132,10 @@ body {
     width: 110%;
 }
 
-/*
+@media screen and (max-width: 800px){
+    .ramos {
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-flow:row;
 
-*/
+    }
+}
