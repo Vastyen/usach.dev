@@ -104,28 +104,34 @@ body {
     
 }
 .menu ul {
-    padding-left: 0;
-    margin: 0 auto;
-    font-size: 0.6vw;
     list-style: none;
-    
+    height: 100vh;
+    padding: 0;
 }
 
 .menu li {
-    padding: 2vw ;
-    padding-left: 0.5vw;
 }
 
-#logo {
-    padding: 1em;
+.menu p {
+    font-size: 2vh;
+    padding: 2vh;
+    padding-left: 0;
 }
 
-.menu li:hover ,li:focus{
+
+.menu li:hover {
     background-color: rgba(0,0,0,0.4);
 }
 
+#logo {
+    padding: 1vh;
+}
 #logo img {
     border-collapse: collapse;
     background-color: transparent;
     width: 110%;
 }
+
+/*
+
+*/
