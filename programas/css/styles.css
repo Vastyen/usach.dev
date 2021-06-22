@@ -75,6 +75,11 @@ body {
     grid-template-columns: 13% 1fr;
     grid-template-rows: 13% 1fr ;
 }
+.mallas {
+    grid-row: 1/3;
+    overflow-x: hidden;
+}
+
 .menu{
     transition: 0.3s;
     grid-row: 1/3;
@@ -82,11 +87,6 @@ body {
     background-color: #292626;
     
 }
-.mallas {
-    grid-row: 1/3;
-    overflow-x: hidden;
-}
-
 .menu ul {
     padding-left: 0;
     margin: 0 auto;
