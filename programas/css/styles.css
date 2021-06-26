@@ -112,6 +112,7 @@ body {
 
 
 .menu p {
+    margin: 0;
     font-size: 1.8vh;
     font-weight: bold;
     padding: 2vh;
@@ -124,9 +125,10 @@ body {
 }
 
 #logo {
-    padding: 1vh;
+    padding: 0.5vw;
 }
 #logo img {
+    overflow: hidden;
     border-collapse: collapse;
     background-color: transparent;
     width: 110%;
