@@ -105,7 +105,6 @@ body {
 .mallas > p{
     text-align:center;
     padding: 4vh;
-    /* text-shadow: 0.2vw 0.4vh 0.4vw rgba(255,255,255,0.5); */
     background-color:var(--color-fondo);
 }
 
