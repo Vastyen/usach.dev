@@ -36,7 +36,7 @@ body {
     color: var(--color-fondo);
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: repeat(6,1fr);
-    margin: 3vh auto;
+    margin: 1vh auto 6vh auto;
     grid-column-gap: 0.5vw;
     grid-row-gap: 1.3vw;
     grid-auto-flow: column;
@@ -88,7 +88,7 @@ body {
     width: 100vw;
     height: 100vh;
     display: grid;
-    font-size: 3vh;
+    font-size: 2.7vh;
     font-weight: bold;
     grid-template-columns: 13% 1fr;
     grid-template-rows: 13% 1fr ;
@@ -101,8 +101,10 @@ body {
 
 .mallas > p{
     text-align:center;
-    margin-top: 5vh;
+    padding: 2.5vh;
+    text-shadow: 0.2vw 0.4vh 0.4vw rgba(255,255,255,0.5);
 }
+
 
 .menu{
     transition: 0.3s;
