@@ -17,7 +17,7 @@
 }
 
 ::-webkit-scrollbar{
-    width: 0.5vw;
+    width: 0.4vw;
 }
 
 ::-webkit-scrollbar-thumb{
@@ -124,7 +124,7 @@ body {
 
 
 .menu p {
-    margin: 0;
+    margin-left: .5vw;
     font-size: 1.8vh;
     font-weight: bold;
     padding: 2vh;
