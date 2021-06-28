@@ -49,7 +49,7 @@ body {
     transition: 0.3s;
     border-radius: .5vh;
     background-color: rgb(139, 152, 163);
-    box-shadow: 3px 3px 0 var(--color-fondo);
+    box-shadow: .2vw .6vh 0 var(--color-fondo);
     font-size: 1vw;
     text-align: center;
     height: 8.3vh;
