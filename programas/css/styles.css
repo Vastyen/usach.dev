@@ -31,11 +31,12 @@ body {
 }
 
 .ramos {
-    width: 95%;
+    width: 90%;
     display: grid;
     padding: 2vh 0.5vw 2vh 1.3vw ;
     border-radius: 1vw;
     background-color: var(--color-menu);
+    box-shadow: .7vw 1vh 0vw rgba(0,0,0,0.4) ;
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: repeat(6,1fr);
     margin: 0 auto;
@@ -46,10 +47,11 @@ body {
 
 .ramos-element {
     transition: 0.3s;
-    background-color: var(--color-fondo);
+    border-radius: .5vh;
+    background-color: rgb(139, 152, 163);
+    box-shadow: 3px 3px 0 var(--color-fondo);
     font-size: 1vw;
     text-align: center;
-    width: 100%;
     height: 8.3vh;
     overflow: hidden;
     background-position: center;
@@ -104,6 +106,7 @@ body {
 
 .mallas > p{
     text-align:center;
+    margin-top: 1vh;
     padding: 4vh;
     background-color:var(--color-fondo);
 }
