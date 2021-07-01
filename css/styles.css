@@ -33,6 +33,11 @@
 #menu a {
     background-color: #292626;
 }
+#codigo {
+  font-family: Monospace;
+  padding: 2px;
+  font-size: 80%;
+}
 
 #preguntas{
     width: 65vw;

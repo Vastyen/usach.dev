@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../../css/styles.css" type="text/css" />
+    <title>Fundamentos de Programacion</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="../../../js/index.js"></script>
+  </head>
+  <body>
+    <h2 class="lema">Fundamentos de Programacion</h2>
+    <h3 class="precentrada">Pruebas Escritas Programadas</h3>
+    <div id="descripcion">
+      <h2 class="precentrada">Primer semestre 2021</h2>
+      <h2>PEP 1</h2>
+      <pre><code id="codigo">
+        # Esta solucion obtuvo de nota un 5,2
+        # Entrada
+        # Se crean variables vacias para usarlas despues
+        i = 0
+        j = 0
+        posicion = 0
+        lista_opciones = []
+        lista_representantes = []
+        lista_ponderacion = lista_opciones
+        valor_voto = ""
+        ponderacion_voto = 0
+        posicion_voto = 0
+
+        # Bloque Principal
+        # Uso un ciclo while para poder ingresar todas las opciones por las cuales es posible votar y
+        # en caso de que ponga 2 o menos, volvera a pedir los votos. cuando sean ingresadas se le agregan 2 opciones que siempre
+        # estan presentes "VOTO NULO" y "VOTO EN BLANCO"
+        # De este ciclo consigo el largo de la lista que me sirve despues para mostrar los resultados
+        while i == 0:
+            opciones = str(input("Ingrese las opciones de voto separadas por coma: ")).upper()
+            lista_opciones = opciones.split(",")
+            if len(lista_opciones) < 2:
+                print("Por favor ingrese más de dos opciones")
+            else:
+                i = i + 1
+                lista_opciones.append("VOTO NULO")
+                lista_opciones.append("VOTO EN BLANCO")
+                lista_ponderacion = [0] * len(lista_opciones)
+        # Proceso
+        # Con este ciclo while se pueden empezar a hacer las votaciones, se escribe el nombre del representate, por quien vota y cuando pesa
+        # su voto. En caso de que quiera terminar de anadir votos puede escribir fin para pasar a los resultados.
+        # Tambien en caso de que este mal escrito el voto, este sera nulo.
+        # En caso de que el usuario ponga votos negativos, estos no se contaran y le avisara al usuario
+        while j == 0:
+            nombre_representante = str(
+                input("Por favor ingrese a quien representa, escriba fin para terminar: ")
+            ).upper()
+            if nombre_representante in lista_representantes:
+                print("Este representante ya voto")
+            elif nombre_representante == "FIN":  # Si escribe fin, se terminara de anadir votos
+                j = j + 1
+            elif nombre_representante == "":  # En caso de no escribir nada, se avisara
+                print("No se escribio ningun representante")
+            else:
+                lista_representantes.append(
+                    nombre_representante
+                )  # Agrego los representates a la lista de representantes
+                print("Las opciones de voto son", lista_opciones)
+                valor_voto = str(input("Ingrese su opcion de voto: ")).upper()
+                if valor_voto not in lista_opciones:
+                    print(
+                        "Opcion escrita no esta en la lista, voto sera nulo"
+                    )  # Si no esta la opcion en la lista, sera nulo
+                    valor_voto = "VOTO NULO"
+                ponderacion_voto = int(
+                    input("Ingrese a cuantos estudiantes representa su voto: ")
+                )
+                if (
+                    isinstance(ponderacion_voto, int) != True or ponderacion_voto <= 0
+                ):  # Revisa si el numero dado es entero positivo mayor que 0
+                    print("El valor debe ser un numero entero positivo distinto de 0")
+                else:
+                    k = 0
+                    while k < len(lista_opciones):
+                        if lista_opciones[k] == valor_voto:
+                            lista_ponderacion[
+                                k
+                            ] += ponderacion_voto  # Recorro la lista, y si el valor es igual al indicado, se le suma la cantidad de alumnos representados
+                            # a la misma posicion que se ubica la eleccion en la otra lista.
+                        k = k + 1
+        # Ciclo while para poder calcular los votos totales con la lista_ponderacion ya hecha, uso len para no salirme de rango
+        i = 0
+        sumatoria = 0
+        while i < len(lista_ponderacion):
+            sumatoria += lista_ponderacion[i]
+            i += 1
+        # Uso k como contador, consigo sacar el porcentaje de cada valor
+        k = 0
+        lista_porcentaje = [0] * len(lista_ponderacion)
+        while k < len(lista_ponderacion):
+            porcentaje = lista_ponderacion[k] / sumatoria * 100
+            lista_porcentaje[k] += int(porcentaje)
+            k += 1
+        # j como contador, itero para decir cuantos votos tuvo cada opcion, junto con su porcentaje
+        # Salida
+        j = 0
+        while j < len(lista_opciones):
+            print(
+                "La opcion",
+                lista_opciones[j],
+                " obtuvo",
+                lista_ponderacion[j],
+                " votos, con un ",
+                lista_porcentaje[j],
+                "% de los votos",
+            )
+            j += 1
+
+        print(lista_representantes, " Fueron los que votaron")
+        print("Hubo", sumatoria, "Votos en total")
+      </code> </pre>
+      <h2 class="precentrada">¿Que temas en especificos se veran?</h2>
+      <p class="precentrada">
+        Se empiezan viendo strings con el tipico ejemplo de "Hola Mundo", los
+        diferentes tipos de objetos que hay (string,int,float) y los usos de
+        simbolos matematicos (*,//,&amp;,**). Despues se veran las listas y
+        funciones que los objetos pueden usar (.islower(),.sum()) Finalmente se
+        veran los ciclos iterativos (while), en los cuales se itera usualmente
+        desde un 0 hasta un cierto numero, y al final de este while se usa un
+        i++ para aumentar el contandor en uno para asi terminar cuando se haya
+        indicado
+      </p>
+      <h2 class="precentrada">¡No sé nada de programación y necesito ayuda!</h2>
+      <p class="precentrada">
+        A pesar de que empezar a programar se ve complicado si es que nunca has
+        tenido experiencia antes
+      </p>
+    </div>
+    <div class="github-profile-badge precentrada" data-user="Henny35P">
+      <p class="autorart">Autor del articulo</p>
+    </div>
+    <script src="../../../js/githubpfp_pie.js"></script>
+  </body>
+</html>
